@@ -30,3 +30,10 @@ $default: #8d8d8d;
     border: none;
     cursor: pointer;
 }
+
+@function max($numbers...) {
+    @return m#{a}x(#{$numbers});
+}
+@function min($numbers...) {
+    @return m#{i}n(#{$numbers});
+}

@@ -289,6 +289,49 @@
     }
 }
 
+.video-fashion{
+    background-image: url(../images/video-fashion-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0;
+    &__inner{
+        display: flex;
+    }
+    &__video{
+        background-image: url(../images/video-bg.jpg);
+        background-repeat: no-repeat;
+        min-width: 535px;
+        min-height: 479px;
+        margin-right: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__video-link{
+        border-radius: 50%;
+    }
+    &__content-subtitle{
+        padding-bottom: 25px;
+        color: $accent;
+        font-size: 22px;
+    }
+    &__content-title{
+        padding-bottom: 40px;
+    }
+    &__content-text{
+        width: 100%;
+        word-wrap: break-word;
+        padding-bottom: 55px;
+    }
+    &__content-link{
+        @extend %btn;
+    }
+}
+
+  
+  
+  
+
 .footer{
     background-color: #f6f6f6;
     padding: 75px 0 25px 0;

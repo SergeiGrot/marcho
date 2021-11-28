@@ -20,3 +20,8 @@ body{
     margin: 0 auto;
     padding: 0 15px;
 }
+.title{
+    @extend %roboto-700;
+    font-size: 48px;
+    color: $title;
+}
